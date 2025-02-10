@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"href="styles.css">
+    <link rel="stylesheet"href="bootstrap.min.css">
+</head>
+<body>
+  <div class="container d-flex bg-light justify-content-center align-items-center vh-100">
+     <div class="card p-4 shadow " style="width:100%; max-width: 400px;">
+      <h4 class="text-center mb-4">Blood Drive SignUp</h4>
+      <form>
+        <div class="mb-3">
+          <label for="firstName" class="form-label">First Name</label>
+          <input type="text" class="form-control" id="firstName" placeholder="enter first name" required>
+
+        </div>
+        <div class="mb-3">
+          <label for="lastName" class="form-label">Last Name</label>
+          <input type="text" class="form-control" id="lastName" placeholder="enter last name" required>
+
+           </div>
+        <div class="mb-3">
+          <label for="email" class="email">Email</label>
+          <input type="text" class="form-control" id="email" placeholder="enter email" required>
+      
+
+        </div>
+        <div class="mb-3">
+          <label for="location" class="form-label">Location</label>
+          <select class="form-select" id="location">
+            <option selected disabled>Select Location</option>
+            <option value="nairobi">Nairobi</option>
+            <option value="mombasa">Mombasa</option>
+            <option value="kisumu">Kisumu</option>
+            <option value="Sugoi">Sugoi</option>
+            <option value="Kisii">Kisii</option>
+
+
+
+
+          </select>
+
+        </div>
+        <button type="submit" class="btn btn-secondary w-100">Submit</button>
+      </form>
+
+     </div>
+  </div>
+</body>
+</html>
